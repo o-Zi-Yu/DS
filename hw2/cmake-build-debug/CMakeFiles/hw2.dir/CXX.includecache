@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/a/作业/DS/hw2/hw2.cpp
+algorithm
+-
+fstream
+-
+iostream
+-
+vector
+-
+string
+-
+assert.h
+-
+iomanip
+-
+math.h
+-
+hw2.h
+/mnt/d/a/作业/DS/hw2/hw2.h
+
+/mnt/d/a/作业/DS/hw2/hw2.h
+iostream
+-
+string
+-
+vector
+-
+

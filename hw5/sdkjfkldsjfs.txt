@@ -1,0 +1,33 @@
+  Node* deck = CreateDeck(20);
+  PrintDeckPrimary(" deck:",deck);
+
+  // prepare space to store the resulting sub-decks
+  Node* hands[4];
+
+  Deal(deck,hands,4,"one-at-a-time",5);
+  // check the size of the decks
+  // verify that the structure of the sub-decks is sound
+  assert (SanityCheckPrimary(hands[0]));
+  assert (SanityCheckPrimary(hands[1]));
+  assert (SanityCheckPrimary(hands[2]));
+  assert (SanityCheckPrimary(hands[3]));
+
+  // print the decks
+
+  PrintDeckPrimary("north:",hands[1]);
+  PrintDeckPrimary(" east:",hands[2]);
+  PrintDeckPrimary("south:",hands[3]);
+  PrintDeckPrimary("b p",hands[0]);
+  PrintDeckPrimary("deck:", deck);
+  SortHand(hands[0]);
+  PrintDeckSorted("b s",hands[0]);
+  Node* new_node = CopyDeck(hands[0]);
+  PrintDeckPrimary("a p",new_node);
+  PrintDeckSorted("a s", new_node);
+
+  // cleanup
+  DeleteAllCards(hands[0]);
+  DeleteAllCards(hands[1]);
+  DeleteAllCards(hands[2]);
+  DeleteAllCards(hands[3]);
+  std::cout << std::endl;

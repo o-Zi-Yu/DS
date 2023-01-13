@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/a/作业/DS/hw2/abc/decath.cpp
+iostream
+-
+math.h
+-
+decath.h
+/mnt/d/a/作业/DS/hw2/abc/decath.h
+
+/mnt/d/a/作业/DS/hw2/abc/decath.h
+iostream
+-
+string
+-
+
+/mnt/d/a/作业/DS/hw2/abc/decath_main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+fstream
+-
+string
+-
+iomanip
+-
+decath.h
+/mnt/d/a/作业/DS/hw2/abc/decath.h
+

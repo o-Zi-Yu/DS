@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/abc.dir/decath.cpp.o CMakeFiles/abc.dir/decath_main.cpp.o  -o abc 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/hw5.dir/deck.cpp.o CMakeFiles/hw5.dir/main.cpp.o CMakeFiles/hw5.dir/playing_card.cpp.o  -o hw5 

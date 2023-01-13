@@ -1,0 +1,3 @@
+/mnt/d/a/作业/DS/hw4/provided_files_75520/part1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/a/作业/DS/hw4/provided_files_75520/part1/cmake-build-debug/CMakeFiles/part1.dir
+/mnt/d/a/作业/DS/hw4/provided_files_75520/part1/cmake-build-debug/CMakeFiles/edit_cache.dir

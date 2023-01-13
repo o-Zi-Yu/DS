@@ -1,0 +1,15 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/a/作业/DS/hw3
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    Board1.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: hw3
+CMake Error: Cannot determine link language for target "hw3".
+-- Generating done
+-- Build files have been written to: /mnt/d/a/浣滀笟/DS/hw3/cmake-build-debug

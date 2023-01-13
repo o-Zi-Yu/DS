@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/a/作业/DS/hw3/Board1.cpp
+Board1.h
+/mnt/d/a/作业/DS/hw3/Board1.h
+
+/mnt/d/a/作业/DS/hw3/Board1.h
+algorithm
+-
+fstream
+-
+iostream
+-
+vector
+-
+string
+-
+iomanip
+-
+cmath
+-
+
+/mnt/d/a/作业/DS/hw3/connect_four_main.cpp
+iostream
+-
+string
+-
+cassert
+-
+Board1.h
+/mnt/d/a/作业/DS/hw3/Board1.h
+

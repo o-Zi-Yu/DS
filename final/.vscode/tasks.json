@@ -1,0 +1,170 @@
+
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "type": "shell",
+//             "label": "g++.exe build active file",
+//             "command": "g++",
+//             "args": [
+//                 "-g",
+//                 "${file}",
+//                 "-o",
+//                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
+//             ],
+//             "options": {
+//                 "cwd": "D:\\CodeBlocks\\MinGW\\bin\\g++.exe"
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             }
+//         },
+//         {
+//             "type": "shell",
+//             "label": "cl.exe build active file",
+//             "command": "cl.exe",
+//             "args": [
+//                 "/Zi",
+//                 "/EHsc",
+//                 "/Fe:",
+//                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
+//                 "${file}"
+//             ],
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": "build"
+//         },
+//         {
+//             "type": "shell",
+//             "label": "cl.exe build active file",
+//             "command": "cl.exe",
+//             "args": [
+//                 "/Zi",
+//                 "/EHsc",
+//                 "/Fe:",
+//                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
+//                 "${file}"
+//             ],
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": "build"
+//         },
+//         {
+//             "type": "shell",
+//             "label": "g++ build active file",
+//             "command": "/usr/bin/g++",
+//             "args": [
+//                 "-g",
+//                 "${file}",
+//                 "-o",
+//                 "${fileDirname}/${fileBasenameNoExtension}"
+//             ],
+//             "options": {
+//                 "cwd": "/usr/bin"
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": "build"
+//         }
+//     ]
+//   }
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-Wall",
+                "-g",
+                "demo.cpp",
+                "-o",
+                "out.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "showReuseMessage": true,
+                "focus": true,
+                "echo": true,
+                "panel": "shared",
+                "reveal": "always"
+            },
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "Valgrind",
+            "type": "shell",
+            "command": "valgrind",
+            "args": [
+                "--leak-check=full",
+                "--show-leak-kinds=all",
+                "--track-origins=yes",
+                "-v",
+                "./out.out"
+            ],
+            "problemMatcher": [],
+            "dependsOn": "Build",
+            "presentation": {
+                "showReuseMessage": true
+            }
+        },
+        {
+            "label": "Dr. Memory",
+            "type": "shell",
+            "command": "~/DrMemory-Linux-2.2.0-1/bin64/drmemory",
+            "args": [
+                "-brief",
+                "--args",
+                "out.out"
+            ],
+            "problemMatcher": [],
+            "dependsOn": "Build",
+            "presentation": {
+                "showReuseMessage": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ]
+}

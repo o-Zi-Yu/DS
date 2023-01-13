@@ -1,0 +1,6 @@
+-d up-tilt 60
+ganondorf
+
+-d up-tilt 60
+ganondorf
+

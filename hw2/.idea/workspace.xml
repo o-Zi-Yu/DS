@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="hw2" targetName="hw2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d89262f-6bcc-4c60-bfa0-eedb042f181d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X8lEGmOlBaKBcyrlnO74FXxFxL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="CMake Application.hw2 scores">
+    <configuration name="hw2 points" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2008_olympics.txt out.txt points" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw2" TARGET_NAME="hw2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw2" RUN_TARGET_NAME="hw2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw2 scores" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="2008_olympics.txt out.txt scores" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw2" TARGET_NAME="hw2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw2" RUN_TARGET_NAME="hw2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.hw2 scores" />
+      <item itemvalue="CMake Application.hw2 points" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d89262f-6bcc-4c60-bfa0-eedb042f181d" name="Default Changelist" comment="" />
+      <created>1580435488916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580435488916</updated>
+      <workItem from="1580435490796" duration="6573000" />
+      <workItem from="1580513010907" duration="984000" />
+      <workItem from="1580514004676" duration="7380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="99" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580540598380">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="99" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580540598380" />
+    <state x="119" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580519246549" />
+    <state x="723" y="59" key="#xdebugger.evaluate" timestamp="1580440637479">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="723" y="59" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1580440637479" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1580540417367">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1580540417367" />
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1580621099881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580621099881" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1580621099881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580621099881" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1580621099881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580621099881" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1580621099881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580621099881" />
+    <state width="1237" height="185" key="GridCell.Tab.1.bottom" timestamp="1580451067131">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1237" height="185" key="GridCell.Tab.1.center" timestamp="1580451067131">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1237" height="185" key="GridCell.Tab.1.left" timestamp="1580451067131">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="1237" height="185" key="GridCell.Tab.1.right" timestamp="1580451067131">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="185" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580451067131" />
+    <state width="640" height="175" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1580540422284">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="640" height="175" key="ImportCMakeProjectWizard.bottomPanel/0.0.1280.680@0.0.1280.680" timestamp="1580540422284" />
+    <state width="640" height="410" key="ImportCMakeProjectWizard.topPanel" timestamp="1580540422283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="640" height="410" key="ImportCMakeProjectWizard.topPanel/0.0.1280.680@0.0.1280.680" timestamp="1580540422283" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1580514059750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580514059750" />
+    <state x="395" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1580514005876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="329" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580435490989" />
+    <state x="395" y="200" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580514005876" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1580540144708">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1580540144708" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="ath[0]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

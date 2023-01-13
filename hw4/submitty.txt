@@ -1,0 +1,7 @@
+set args --arithmetic-operations encrypted_message.txt secret_message.txt
+
+
+
+
+set args  --array-operations encrypted_message.txt secret_message.txt
+set args  --list-operations encrypted_message.txt secret_message.txt

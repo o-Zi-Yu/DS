@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c423291-f223-44f0-90e6-d0e63896e062" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1XuO72YO6rLxvPoxuaGI8aCIeiA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw5" />
+  </component>
+  <component name="RunManager" selected="CMake Application.hw4">
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="hw4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw4" RUN_TARGET_NAME="hw4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw4" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--arithmetic-operations encrypte d_message.txt secret_message.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="hw4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw4" RUN_TARGET_NAME="hw4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw4" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PROGRAM_PARAMS="operations.cpp -o out.out -arithmetic-operations encrypte d_message.txt secret_message.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw4" TARGET_NAME="hw4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw4" RUN_TARGET_NAME="hw4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.hw4" />
+      <item itemvalue="CMake Application.Unnamed" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c423291-f223-44f0-90e6-d0e63896e062" name="Default Changelist" comment="" />
+      <created>1581892341947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581892341947</updated>
+      <workItem from="1581892343312" duration="649000" />
+      <workItem from="1582154152787" duration="51000" />
+      <workItem from="1582154215183" duration="32000" />
+      <workItem from="1582157506747" duration="204000" />
+      <workItem from="1582158028776" duration="116000" />
+      <workItem from="1582430343720" duration="305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581892938477">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1581892938477" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1582430646964">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582430646964" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1581892993797">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581892993797" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1581892993796">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581892993796" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1581892993796">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581892993796" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1581892993797">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581892993797" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582430346076">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582430346076" />
+  </component>
+</project>

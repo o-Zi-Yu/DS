@@ -1,0 +1,72 @@
+
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//         "name": "g++.exe build and debug active file",
+//         "type": "cppdbg",
+//         "request": "launch",
+//         "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+//         "args": ["2008_olympics.txt", "a.txt", "points"],
+//         "stopAtEntry": false,
+//         "cwd": "${workspaceFolder}",
+//         "environment": [],
+//         "externalConsole": false,
+//         "MIMode": "gdb",
+//         "miDebuggerPath": "D:\\CodeBlocks\\MinGW\\bin\\gdb32.exe",
+//         "setupCommands": [
+//             {
+//             "description": "Enable pretty-printing for gdb",
+//             "text": "-enable-pretty-printing",
+//             "ignoreFailures": true
+//             }
+//         ],
+//         "preLaunchTask": "g++.exe build active file"
+//         }
+//     ]
+// }
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Using GDB On WSL",
+            "type": "cppdbg",
+            "request": "launch",
+            //"program": "${command:extension.vscode-wsl-workspaceFolder}/a.out",
+            "program": "/mnt/d/a/作业/DS/CW/lab8/out.out",
+            "args": ["grid1.txt"],
+            "stopAtEntry": true,
+            //"cwd": "${command:extension.vscode-wsl-workspaceFolder}",
+            "cwd": "/mnt/d/a/作业/DS/CW/lab8",
+            "environment": [],
+            "externalConsole": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": false,
+                }
+            ],
+            "sourceFileMap": {
+                "/mnt/c": "C:\\"
+            },
+            "pipeTransport": {
+                "pipeCwd": "/usr/bin",
+                "pipeProgram": "/bin/sh",
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeArgs": [
+                    "-c"
+                ]
+            // "pipeTransport": {
+            //     "debuggerPath": "/usr/bin/gdb",
+            //     "pipeProgram": "${env:windir}\\system32\\bash.exe",
+            //     "pipeArgs": [
+            //         "-c"
+            //     ],
+            //     "pipeCwd": "${env:windir}\\system32",
+            }
+        }
+    ]
+}

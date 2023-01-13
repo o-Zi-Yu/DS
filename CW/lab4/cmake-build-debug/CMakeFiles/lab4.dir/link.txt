@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab4.dir/buggy_lab4.cpp.o  -o lab4 
